@@ -1,0 +1,49 @@
+'''WAP to swap value of two variables with all five possibilities
+
+a. Using temp variable
+b. Using + and - Operator
+c. Using // and * Operator
+d. Using ^ (XOR) operator
+e. By using concept of different value to multiple variable allocation concept'''
+
+# initialize variables
+a = 10
+b = 20
+
+# using temp variable
+temp = a
+a = b
+b = temp
+print("After swapping using temp variable:")
+print("a =", a)
+print("b =", b)
+
+# using + and - operator
+a = a + b
+b = a - b
+a = a - b
+print("After swapping using + and - operator:")
+print("a =", a)
+print("b =", b)
+
+# using * and // operator
+a = a * b
+b = a // b
+a = a // b
+print("After swapping using * and // operator:")
+print("a =", a)
+print("b =", b)
+
+# using ^ (XOR) operator
+a = a ^ b
+b = a ^ b
+a = a ^ b
+print("After swapping using ^ (XOR) operator:")
+print("a =", a)
+print("b =", b)
+
+# using multiple variable allocation concept
+a, b = b, a
+print("After swapping using multiple variable allocation:")
+print("a =", a)
+print("b =", b)
