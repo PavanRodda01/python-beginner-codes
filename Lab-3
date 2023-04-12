@@ -1,0 +1,25 @@
+'''WAP to take basic details of employee like name, phone number, email id, salary,
+designation, address, blood group and birth date through keyboard and print it in
+proper, format. '''
+
+# taking input from user
+name = input("Enter name: ")
+phone_number = input("Enter phone number: ")
+email_id = input("Enter email id: ")
+salary = input("Enter salary: ")
+designation = input("Enter designation: ")
+address = input("Enter address: ")
+blood_group = input("Enter blood group: ")
+birth_date = input("Enter birth date (DD/MM/YYYY): ")
+
+# printing employee details in proper format
+print("\nEmployee Details\n")
+print(f"Name: {name}")
+print(f"Phone Number: {phone_number}")
+print(f"Email ID: {email_id}")
+print(f"Salary: {salary}")
+print(f"Designation: {designation}")
+print(f"Address: {address}")
+print(f"Blood Group: {blood_group}")
+print(f"Birth Date: {birth_date}")
+
