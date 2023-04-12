@@ -1,0 +1,42 @@
+'''WAP menu driven program to find area of triangle, circle, rectangle, square and
+cylinder.'''
+
+import math
+
+# display the menu
+print("Choose a shape:")
+print("1. Triangle")
+print("2. Circle")
+print("3. Rectangle")
+print("4. Square")
+print("5. Cylinder")
+
+# take input from user
+choice = int(input("Enter choice (1-5): "))
+
+# calculate area based on user's choice
+if choice == 1:
+    base = float(input("Enter base of the triangle: "))
+    height = float(input("Enter height of the triangle: "))
+    area = 0.5 * base * height
+    print("The area of the triangle is:", area)
+elif choice == 2:
+    radius = float(input("Enter radius of the circle: "))
+    area = math.pi * radius ** 2
+    print("The area of the circle is:", area)
+elif choice == 3:
+    length = float(input("Enter length of the rectangle: "))
+    width = float(input("Enter width of the rectangle: "))
+    area = length * width
+    print("The area of the rectangle is:", area)
+elif choice == 4:
+    side = float(input("Enter length of the square: "))
+    area = side ** 2
+    print("The area of the square is:", area)
+elif choice == 5:
+    radius = float(input("Enter radius of the cylinder: "))
+    height = float(input("Enter height of the cylinder: "))
+    area = 2 * math.pi * radius * height + 2 * math.pi * radius ** 2
+    print("The area of the cylinder is:", area)
+else:
+    print("Invalid choice")
