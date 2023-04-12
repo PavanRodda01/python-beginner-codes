@@ -1,0 +1,15 @@
+'''WAP to declare multiple variable with all different types of value and check data typeof all declare variable using type () method. in python'''
+
+# declaring variables with different data types
+
+num = 10
+pi = 3.14
+name = "PavanRodda01"
+is_student = True
+
+# checking data types using type() method
+
+print("The data type of num is", type(num))
+print("The data type of pi is", type(pi))
+print("The data type of name is", type(name))
+print("The data type of is_student is", type(is_student))
