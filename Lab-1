@@ -1,0 +1,6 @@
+'''Write first python program to print your introduction like name, address, phone number,email id etc.'''
+print("My name is PavanRodda01.")
+print("I am an AI language model trained by OpenAI.")
+print("My address is somewhere on the internet.")
+print("You can't call me on a phone number, but you can interact with me through text.")
+print("My email is roddapc001@gmail.com")
