@@ -1,0 +1,14 @@
+'''WAP to find simple interest for given principal amount. Take input of principal amount,
+rate of interest and year from user. (Interest=(PRN)/100) – self study'''
+
+# taking input from user
+principal = float(input("Enter the principal amount: "))
+rate = float(input("Enter the rate of interest: "))
+time = float(input("Enter the time period (in years): "))
+
+# calculating simple interest
+interest = (principal * rate * time) / 100
+
+# printing the result
+print(f"The simple interest for principal amount {principal}, rate of interest {rate}, and time period {time} years is {interest}.")
+
